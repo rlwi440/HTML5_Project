@@ -1,7 +1,6 @@
 import {
     Text
-} from 'js/Text.js';
-
+} from 'js/text.js';
 class app {
     constructor() {
         WebFont.load({
