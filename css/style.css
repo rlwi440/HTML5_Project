@@ -9,12 +9,24 @@
     color: black;
 }
 h1{
-    font-size: 48px;
+    font-size: 40px;
     font-weight: 100;
 }
 .contenst1{
     font-size: 20px;
     font-weight:lighter;
+}
+.contenst1_bold{
+font-size: 18px;
+font-weight: bold;
+}
+/*---*/
+.contenst2{
+    font-size: 20px;
+}
+.contenst3{
+    font-size: 14px;
+    font-weight: 100;
 }
 .result{
     font-size: 24px;
@@ -51,9 +63,6 @@ h1{
     color: #fff;
     font-weight: bold;
     cursor: pointer;
-
-
-
 }
 
 .nav{
@@ -75,10 +84,6 @@ margin: 231px auto 231px auto ;
 text-align: center;
 }
 
-.intro_text>h4{
-    font-size: ;
-}
-
 .intro_text >h1,
 .intro_text>h4{
     color: #fff;
@@ -96,12 +101,80 @@ text-align: center;
     flex: 1;
     height: 132px;
     }
-    .amount>li>div>:not(:last-child){
-        border-right: 1px solid grey; 
+    .amount>li:not(:last-child)>div {     
+        border-right: 2px solid gray;
     }
 .amount>li>div{
 text-align: center; 
 margin-top: 37px;
 height: 57px;
+}
+/*main_text 0*/
+.main_text0{
+    width: 100%;
+    height: 601px;
+    margin-top: -132px;
+    background: #f1f2f3;
+}
+.main_text0>h1{
+    margin-top: 116px;
+    text-align: center;
+}
+.main_text0 >.contenst1{
+    text-align: center;
+}
+.icons{
+    display: flex;
+    width: 1280px;
+    height: 302px;
+    margin: auto;
+}
+.icons>li{
+    flex: 1;
+    height: 302px;
+    margin-top: 49px;
+    background: white;
+    text-align: center;
+}
+.icons>li>.icons_img{
+    margin-top: 18px;
+}
+
+.icons>li:not(:last-child){
+    margin-right: 20px;
 
 }
+.icons .contenst2{
+    width: 240px;
+    margin: auto;
+    letter-spacing: -1px;
+}
+.more{
+    width:100px;
+    height: 30px;
+    background: #2F7AF4;
+    color: #fff;
+    font-size: 12px;
+    line-height: 30px;
+    margin:25px auto;
+  }
+  /*main_text1*/
+  .main_text1{
+      width: 100;
+      height: 659px;
+  }
+  .main_text1>h1{
+      padding-top: 50px;
+      text-align: center;
+  }
+  .main_text1> .contenst1{
+      text-align: center;
+  }
+  .service{
+      width: 1280px;
+      display: flex;
+      height: 427px;
+      margin: auto;
+      background: skyblue;
+
+  }
