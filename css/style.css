@@ -64,7 +64,6 @@ font-weight: bold;
     font-weight: bold;
     cursor: pointer;
 }
-
 .nav{
     display: flex ;
     width: calc(1280px-300px);
@@ -174,7 +173,51 @@ height: 57px;
       width: 1280px;
       display: flex;
       height: 427px;
-      margin: auto;
-      background: skyblue;
-
+      margin: 49px auto;
   }
+  .service >.contenst2{
+      padding: 20px;
+  }
+  .service >.contenst2> h2{
+   margin-bottom: 20px;   
+  }
+/*main_text2*/
+.main_text2{
+    width: 100%;
+    height: 418px;
+    background-image: url("image/contact.png");
+}
+.main_text2>ul{
+    display: flex;
+    padding-top: 138px;
+}
+.main_text2>ul>li{
+    flex: 1;
+    text-align: center;
+}
+.main_text2>ul>li>div>h1,
+.main_text2>ul>li>div{
+    color: #fff ;
+}
+.more2{
+    width: 220px;
+    height: 40px;
+    border: 1px solid #fff;
+    line-height: 40px;
+    cursor: pointer;
+    margin: 16px auto;
+}
+footer{
+    padding: 30px;
+    display: flex;
+    background: #1f1f1f;
+}
+footer>div:first-child{
+    flex: 3;
+    text-align: center;
+    color: #fff;
+}
+footer>div:last-child{
+    flex: 9;
+    color: #fff;
+}
