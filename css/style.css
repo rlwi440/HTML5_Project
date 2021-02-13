@@ -11,6 +11,12 @@
 h1{
     font-size: 40px;
     font-weight: 100;
+    font-weight: bold;
+}
+h4{
+    font-size: 30px;
+    font-weight: 100;
+}
 }
 .contenst1{
     font-size: 20px;
