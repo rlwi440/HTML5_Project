@@ -1,35 +1,55 @@
 <!doctype html>
 <html lang="ko">
+
 <head>
-	<title>온라인 프로필</title>
-	<meta charset="utf-8">
-  <link rel="stylesheet" href="css/style1.css">
-  <style>
-    table {
-      width:70%;  /* 표의 너비 */
-      border:1px solid #222; /* 1픽셀짜리 표 테두리 */
-      border-collapse: collapse; /* 중복되는 표와 셀의 테두리를 한 줄로 표시 */
-    }
-    thead {
-      background:#eee;  /* 제목 행의 배경 색 */
-    }
-    th, td {
-      border:1px solid #ccc; /* 1픽셀짜리 셀 테두리 */
-      padding:5px;  /* 셀 테두리와 셀 내용 사이의 여백(패딩) */
-      font-size:0.8em;  /* 셀의 글자 크기 */
-    }
-    a, a:visited {
-      color:#222;   /* 글자색 */
-      text-decoration: none;  /* 밑줄 없앰 */
-    }
-    #sns > ul {
-     padding-left:0;  /* 목록 들여쓰지 않기 */
-    }
-    #sns > ul > li {     
-      display:inline-block;   /* 항목을 가로로 배열 */
-      width:50px;   /* 60px 수정 */
-    }
-  </style>
+    <title>온라인 프로필</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style1.css">
+    <style>
+        table {
+            width: 70%;
+            /* 표의 너비 */
+            border: 1px solid #222;
+            /* 1픽셀짜리 표 테두리 */
+            border-collapse: collapse;
+            /* 중복되는 표와 셀의 테두리를 한 줄로 표시 */
+        }
+
+        thead {
+            background: #eee;
+            /* 제목 행의 배경 색 */
+        }
+
+        th,
+        td {
+            border: 1px solid #ccc;
+            /* 1픽셀짜리 셀 테두리 */
+            padding: 5px;
+            /* 셀 테두리와 셀 내용 사이의 여백(패딩) */
+            font-size: 0.8em;
+            /* 셀의 글자 크기 */
+        }
+
+        a,
+        a:visited {
+            color: #222;
+            /* 글자색 */
+            text-decoration: none;
+            /* 밑줄 없앰 */
+        }
+
+        #sns>ul {
+            padding-left: 0;
+            /* 목록 들여쓰지 않기 */
+        }
+
+        #sns>ul>li {
+            display: inline-block;
+            /* 항목을 가로로 배열 */
+            width: 50px;
+            /* 60px 수정 */
+        }
+    </style>
 </head>
 
 <body>
@@ -38,27 +58,27 @@
         <aside>
             <div id="namecard">
                 <img src="image/Test.jpg" alt="">
-                <h1>KI WON BAE</h1>    
+                <h1>KI WON BAE</h1>
                 <p>현재의 스스로는 내가 만든다(Carpe diem)</p>
             </div>
             <div id="detail">
                 <p><mark>Tel.010-????-????</mark></p>
                 <p>Gwangju, Gyeonggi-do</p>
-                <p>baeki@gmail.com</p>                                 
+                <p>baeki@gmail.com</p>
             </div>
             <div id="sns">
                 <h2>SNS</h2>
-                <ul>                    
-					<li class="instagram">
+                <ul>
+                    <li class="instagram">
                         <!--SVG 추가 -->
-						<a href="https://www.instagram.com/bae_giweon/"><img src="image/Instagram.png"></a>
-					</li>
+                        <a href="https://www.instagram.com/bae_giweon/"><img src="image/Instagram.png"></a>
+                    </li>
                     <li>
                         <!--Git SVG-->
                         <a href="https://github.com/rlwi440/"><img src="image/github.png"></a>
                     </li>
-				</ul>  
-            </div>           
+                </ul>
+            </div>
         </aside>
         <div id="main">
             <!-- 자기 소개 -->
@@ -75,21 +95,22 @@
                         <ul>
                             <li>업무 내용 업무 내용 업무 내용 </li>
                             <li>업무 내용 </li>
-                            <li>업무 내용 업무 내용</li> 
+                            <li>업무 내용 업무 내용</li>
                         </ul>
                     </li>
                     <li>웹 디자인
                         <ul>
                             <li>업무 내용 </li>
                             <li>업무 내용 업무 내용</li>
-                        </ul>                        
+                        </ul>
                     </li>
-                </ul>             
+                </ul>
             </section>
 
             <!-- 숙련도 -->
             <section>
                 <h2 class="subtitle">Skills</h2>
+                <!--개인정보 추가예정-->
                 <fieldse>
                     <legend>개인정보</legend>
                     <ul>
@@ -98,41 +119,42 @@
                             <input type="text" id="name">
                         </li>
                     </ul>
-        
-                </fieldset>
+
+                    </fieldset>
             </section>
 
             <!-- 학력 -->
             <section>
                 <h2 class="subtitle">Education</h2>
                 <table>
-                  <caption>학력 사항</caption>
-                  <thead>
-                      <tr>
-                          <th>출신학교</th>
-                          <th>전공</th>
-                          <th>기간</th>
-                          <th>구분</th>
-                      </tr>
-                  </thead>
-                  <tbody>
-                      <!--학력조회구간 -->
-                      <tr>
-                          <td>??중학교</td>
-                          <td> - </td>
-                          <td>20??.02 ~ 20??.02</td>
-                          <td>졸업</td>
-                      </tr>
-                      <tr>
-                        <td>??고등학교</td>
-                        <td> - </td>
-                        <td>20??.03 ~ 20??.02</td>
-                        <td>졸업</td>
-                    </tr>
-                  </tbody>
+                    <caption>학력 사항</caption>
+                    <thead>
+                        <tr>
+                            <th>출신학교</th>
+                            <th>전공</th>
+                            <th>기간</th>
+                            <th>구분</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!--학력조회구간 -->
+                        <tr>
+                            <td>??중학교</td>
+                            <td> - </td>
+                            <td>20??.02 ~ 20??.02</td>
+                            <td>졸업</td>
+                        </tr>
+                        <tr>
+                            <td>??고등학교</td>
+                            <td> - </td>
+                            <td>20??.03 ~ 20??.02</td>
+                            <td>졸업</td>
+                        </tr>
+                    </tbody>
                 </table>
             </section>
-        </div>        
+        </div>
     </div>
 </body>
+
 </html>
