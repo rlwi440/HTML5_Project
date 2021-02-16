@@ -32,7 +32,8 @@ class App {
         this.ctx.arc(
             this.stageWidth / 2,
             this.stageHeight / 2,
-            300,
+            /*동그라미 사이즈 구간*/
+            500,
             0, 2 * Math.PI
         );
         this.ctx.fill();
